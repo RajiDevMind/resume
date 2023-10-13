@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kanit:ital@1&family=Montserrat:ital,wght@0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Raji Portfolio</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <h1>RAJI</h1>
+      </div>
+      <div class="nav" id="#btn">
+        <a href="#">Blog</a>
+        <a href="#footers">About</a>
+        <a href="#skills">Skills</a>
+      </div>
+      <div>
+        <input type="checkbox" id="toggle" class="inputcheckbox" />
+        <label for="toggle" class="inputlabel">
+          <div class="circle"></div>
+        </label>
+      </div>
+    </div>
+    <div class="welcome">
+      <h2 class="note">Welcome! My name is Raji</h2>
+      <h1 class="notes"></h1>
+    </div>
+    <div class="cv">
+      <a
+        href="/images/CV.pdf"
+        class="material-symbols-outlined"
+        target="_blank"
+        alt="Curriculum Vitae"
+        >open_in_newcv</a
+      >
+    </div>
+    <div class="container-obj">
+      <div class="objectives imgs">
+        <div class="img-obj">
+          <img src="./images/profile.jpg" alt="" />
+        </div>
+      </div>
+      <div class="objectives">
+        <p>
+          According to Carmine Gallo, author of “Talk like Ted”, he wrote,
+          “Ideas are the currency of the 21st century”. I have a deep desire to
+          be a part of exchanging of ideas, one of the reasons I am seeking the
+          opportunities to contribute to the growth of your company and
+          personally, grow as a Software developer. I am passionate in web
+          development and so eager to leverage my foundational knowledge in
+          MongoDB, Express.js, React and Node.js to create dynamic and users
+          friendly web applications.
+        </p>
+      </div>
+    </div>
+    <div class="headerimg">
+      <div class="wrapper">
+        <img class="allimg img1" src="/images/uidesi.jpeg" alt="mypic" />
+
+        <img class="allimg img3" src="/images/Server.jpg" alt="mypic" />
+
+        <img class="allimg img2" src="/images/APIimg.png" alt="mypic" />
+
+        <img class="allimg img4" src="/images/projectimg.jpg" alt="mypic" />
+
+        <img class="allimg img1" src="/images/serve.png" alt="mypic" />
+
+        <img class="allimg img3" src="/images/api.webp" alt="mypic" />
+      </div>
+    </div>
+
+    <hr />
+    <div id="skills" class="skills">
+      <h2>Skills And Technologies</h2>
+      <div class="cover">
+        <div id="FE" class="frontend stack">
+          <ul>
+            Frontend
+          </ul>
+          <li>HTML5, CSS3, JavaScript</li>
+          <li>ReactJs</li>
+          <li>Responsive Web Design</li>
+          <li>Cross-browser and device testing</li>
+          <li>Web performance optimization (WPO)</li>
+        </div>
+        <hr />
+        <div id="BE" class="backend stack">
+          <ul>
+            Backend
+          </ul>
+          <li>Node.JS</li>
+          <li>Express.JS</li>
+          <li>Restful API Development</li>
+          <li>Authentication and Authorisation (JWT)</li>
+          <li>CRUD Operations</li>
+          <li>Error-Handling</li>
+        </div>
+      </div>
+      <hr />
+      <div class="cover">
+        <div id="DB" class="database stack">
+          <ul>
+            Database
+          </ul>
+          <li>MongoDB</li>
+          <li>Mongoose (ODM)</li>
+          <li>Optimize and maintain legacy systems</li>
+          <li>Solve database usage issues and malfunctions</li>
+        </div>
+        <hr />
+        <div id="TOOLS" class="tools stack">
+          <ul>
+            Tools
+          </ul>
+          <li>Postman</li>
+          <li>Visual Studio Code</li>
+          <li>Basic Command Line Usage</li>
+          <li>Strong Problem-Solving Skills</li>
+          <li>Excellent Communication Skills</li>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="newsletter">
+      <p>
+        <span>Subscribe</span> to my newsletter to receive content and latest
+        articles in tech industry
+      </p>
+    </div>
+
+    <form id="myForm">
+      <input
+        type="email"
+        name="email"
+        class="email usermail"
+        placeholder="Enter Your Email"
+      />
+
+      <button type="submit" class="btn">Subscribe</button>
+    </form>
+
+    <div class="thankyoucontainer">
+      <div class="popup" id="popup">
+        <span class="material-symbols-outlined"> verified </span>
+        <h3>Thank You!</h3>
+        <p>You have Subscribed Successfully</p>
+        <button type="button" class="hidepopup">OK</button>
+      </div>
+    </div>
+    <hr />
+    <footer id="footers" class="footers">
+      <div>
+        <a target="_blank" href="mailto:omoiyaalasso@gmail.com">Email</a>
+      </div>
+      <div>
+        <a target="_blank" href="https://github.com/RajiDevMind">Github</a>
+      </div>
+      <div>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/raji-opeyemi-i-219b93238"
+          >LinkedIn</a
+        >
+      </div>
+      <div>
+        <a target="_blank" href="https://wa.link/oowia5">DM</a>
+      </div>
+    </footer>
+    <p style="text-align: center; font-size: 14px">&#169;RajiDevMind(2023)</p>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
